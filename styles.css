@@ -1,0 +1,145 @@
+div {
+	border: solid black 1px;
+	margin: 5px;
+	font-size: 20px;
+	color: black;
+}
+
+#youtube-wrapper{
+	width: 90%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#one{
+	height: 100px;
+	background-color: blue;
+	line-height: 100px;
+}
+
+#two{
+	background-color: green;
+	height: 150px;
+}
+
+#two-one{
+	height: 90%;
+	width: 15%;
+	line-height: 200px;
+	display: inline-block;
+}
+
+#two-two{
+	width: 40%;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+#input-search{
+	background-color: red;
+}
+
+#home-menu{
+	height: 50px;
+	float: left;
+	width: 90%;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.home-videos-menu{
+	float: left;
+	padding-left: 10px;
+}
+
+
+#subscription{
+	float: right;
+}
+
+#two-three{
+	width: 40%;
+	display: inline-block;
+	vertical-align: bottom;
+
+}
+
+#sign-in{
+	float: right;
+}
+
+/* three */
+#three{
+	height: 400px;
+	background-color: lightgoldenrodyellow;
+}
+
+#left{
+	width: 65%;
+	height: 380px;
+	float: left;
+	color: black;
+}
+
+#right{
+	width: 30%;
+	height: 380px;
+	float: right;
+	color: black;
+}
+
+#big-video{
+	width: 53%;
+	height: 90%;
+	float: left;
+}
+
+#three-video{
+	width: 40%;
+	float: left;
+	height: 90%;
+}
+
+.small-vid{
+	float: left;
+	height: 28%;
+	width: 90%;
+}
+
+.actual-small-vid{
+	width: 50%;
+	height: 90%;
+	float: left;
+}
+
+.small-vid-description{
+	float: left;
+	width: 33%;
+	height: 90%;
+}
+
+#square-pop-up{
+	height: 55%;
+	width: 90%;
+}
+
+#square-description{
+	height: 30%;
+	width: 90%;
+}
+
+/* four */
+#four{
+	height: 500px;
+	color: black;
+	background-color: orange;
+}
+
+
+
+
+
+
+
+
+

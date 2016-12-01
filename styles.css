@@ -1,25 +1,29 @@
 div {
-	border: solid black 1px;
 	margin: 5px;
 	font-size: 20px;
 	color: black;
 }
-
+/* border color #AFB8BE        */
 #youtube-wrapper{
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	margin-top: 30px;
 }
 
 #one{
-	height: 100px;
-	background-color: blue;
-	line-height: 100px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px;
+	font-family: Roboto, arial, sans-serif;
+	font-weight: 800;
+	font-size: 20px;
 }
 
+/* two */
 #two{
-	background-color: green;
-	height: 150px;
+	height: 120px;
+	border-top: 2px solid #AFB8BE;
+	border-bottom: 2px solid #AFB8BE;	
 }
 
 #two-one{
@@ -29,59 +33,115 @@ div {
 	display: inline-block;
 }
 
+#two-one img{
+	height: 80%;
+	width:  90%;
+	padding-right: 5px;
+}
+
 #two-two{
-	width: 40%;
+	width: 50%;
 	display: inline-block;
 	vertical-align: bottom;
 }
 
+#two-two input{
+	width: 70%;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+}
+
+#two-two button{
+	width: 15%;
+	height: 36px;
+	float: left;
+	background-color: white;
+	border: 1px solid #AFB8BE;
+}
+
+#two-two button img{
+	width: 15%;
+	height: 45%;
+}
+
 #input-search{
-	background-color: red;
 }
 
 #home-menu{
-	height: 50px;
+	height: 30%;
 	float: left;
 	width: 90%;
 	text-align: center;
 	vertical-align: bottom;
+	margin-top: 10px;
 }
 
 .home-videos-menu{
 	float: left;
-	padding-left: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: Roboto, arial, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: underline;
 }
 
 
-#subscription{
-	float: right;
-}
-
-#two-three{
-	width: 40%;
-	display: inline-block;
-	vertical-align: bottom;
-
-}
 
 #sign-in{
 	float: right;
+	font-size: 17px;
+	font-family: Roboto, arial, sans-serif;
+	color: blue;
+	font-weight: 900;
+}
+
+#subscription{
+	float: right;
+	clear: both;
+}
+
+.subscription-menu{
+	float: left;
+	padding-left: 10px;
+	font-family: Roboto, arial, sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	padding-bottom: 1px;
+}
+
+
+#two-three{
+	width: 30%;
+	display: inline-block;
+	vertical-align: bottom;
+
 }
 
 /* three */
 #three{
 	height: 400px;
-	background-color: lightgoldenrodyellow;
 }
 
-#left{
-	width: 65%;
+#featured{
+	font-family: Roboto, arial, sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+#three-left{
+	width: 60%;
 	height: 380px;
 	float: left;
 	color: black;
+	background-color: #F1F1F1;
+
 }
 
-#right{
+#three-right{
 	width: 30%;
 	height: 380px;
 	float: right;
@@ -89,15 +149,41 @@ div {
 }
 
 #big-video{
-	width: 53%;
+	width: 50%;
 	height: 90%;
 	float: left;
 }
 
+#big-video img{
+	width: 100%;
+	height: 80%;
+}
+
+.emtpy-space{
+	width: 1px;
+	height: 2px;
+}
+
+.video-title{
+	font-family: Roboto, arial, sans-serif;
+	font-size: 15px;
+	color: #167ac6;
+	font-weight: 600;
+}
+
+.views{
+	font-family: Roboto, arial, sans-serif;
+	font-size: 12px;
+	color: #767676;
+	line-height: -1px;
+}
+
 #three-video{
-	width: 40%;
+	width: 46%;
 	float: left;
 	height: 90%;
+	margin-left: 2%;
+	margin-top: -5px;
 }
 
 .small-vid{
@@ -108,15 +194,21 @@ div {
 
 .actual-small-vid{
 	width: 50%;
-	height: 90%;
+	height: 93%;
 	float: left;
+
+}
+
+.actual-small-vid img{
+	height: 100%;
 }
 
 .small-vid-description{
 	float: left;
-	width: 33%;
-	height: 90%;
+	width: 43%;
+	height: 100%;
 }
+
 
 #square-pop-up{
 	height: 55%;
@@ -133,6 +225,31 @@ div {
 	height: 500px;
 	color: black;
 	background-color: orange;
+}
+
+#four-one{
+	
+}
+
+#four-two{
+	height: 85%;
+}
+
+.more-vid{
+	float: left;
+	width: 12%;
+	height: 40%;
+}
+
+.more-vid-description{
+	float: left;
+	width: 9%;
+	height: 40%;
+	margin-right: 2%;
+}
+
+#four-three{
+	
 }
 
 
